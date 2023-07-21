@@ -35,14 +35,16 @@
 }
 
 .home2{
+  width: 100%;
+  height: 100vh;
   background: linear-gradient(to top, $second, $dark); 
-  width:100%;
-  height:100vh;
-  background-color: $second;
-  padding: 500px 0;
-  display: flex;
+
+  position: relative;
+  display:flex;
+
   justify-content: center;
   align-items: center;
+  
 
   >img{
     width:30%;
@@ -62,7 +64,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 2rem;
+   
    
     
     p{
@@ -71,7 +73,149 @@
       font: 100 1.2rem $text2;
       word-spacing: 5px;
       padding-inline:4rem;
+      padding-top:4rem;
     }
 }
 
+}
+
+.home3{
+  width:100%;
+  height:100vh;
+  background: linear-gradient(to bottom, $second, $dark); 
+  padding-inline:3rem;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  
+
+
+
+  >div{
+    padding:3rem;
+    width:auto;
+    height:auto;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    color: white;
+    background-color:rgba(93, 95, 103, 0.432);
+    border-radius: 50px 50px 50px 50px;
+    border-color:white;
+    border-style: solid;
+    border-width: 4px;
+
+   
+
+
+    >h1{
+      color: white;
+      font: 400 3rem $text1;
+      // padding-top:2rem;
+      padding-bottom:2rem;
+      
+    }
+    p{
+      // padding:4rem;
+    }
+
+
+  }
+}
+
+.home4{
+  width:100%;
+  height:100vh;
+  background: linear-gradient(to top, $second, $dark);
+  display:flex;
+  justify-content: flex-end;
+  padding-top:4rem;
+  align-items: center;
+
+  >h1{
+    font: 300 5rem "Great Vibes";
+    color: $first;
+    padding: 2rem;
+    padding-right:25rem;
+   
+  }
+
+  >div{
+    background-color:$third;
+    border-radius:300px 0 0 300px;
+    width:auto;
+    height:70%;
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+   
+    color:white;
+    font: 100 1rem $text2;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 2rem;
+    border-color:white;
+    padding-left:7rem;
+    padding-top:1rem;
+    
+    >h1{
+      font: 500 3rem $text1;
+      padding-bottom:2rem;
+      letter-spacing: 4px;
+    }
+
+    >article{
+      display:flex;
+      margin: 2rem 0;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      >div{
+        animation: svg 0.7s linear infinite alternate;
+        margin:1rem;
+        height:6.5rem;
+        width:6.5rem;
+        background-color: $first;
+        border-radius:50%;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        color:$dark;cursor:pointer;
+        transition: all 0.5s;
+        // padding:3rem;
+
+
+        &:hover{
+          background-color: $dark;
+          color:$first;
+          // filter:invert(1);
+        }
+
+        svg{
+          padding:8px;
+          margin-top:5px;
+          font-size:4rem;
+        }
+
+        p{
+          font: 900 1rem $text2;  
+        }
+      }
+    }
+
+   
+
+  }
+}
+
+@keyframes svg{
+   
+  to{
+    transform: translateY(-10px);
+  }
 }
