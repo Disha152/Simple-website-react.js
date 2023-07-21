@@ -1,0 +1,77 @@
+@import 'colors';
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, $second, $dark); 
+
+  position: relative;
+
+  > main {
+    position: absolute;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+    justify-content: center;
+
+    h1 {
+      font: 400 3.5rem $text1;
+      color: $first;
+      padding: 2rem;
+    }
+     
+    p {
+      font: 400 1rem $text1;
+      color: white;
+      
+      align-items: flex-end;
+      padding-right:2rem;
+    }
+  }
+}
+
+.home2{
+  background: linear-gradient(to top, $second, $dark); 
+  width:100%;
+  height:100vh;
+  background-color: $second;
+  padding: 500px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  >img{
+    width:30%;
+    animation: imageSrc 0.7s linear infinite alternate;
+  }
+
+  @keyframes imageSrc {
+   
+    to{
+      transform: translateY(-10px);
+    }
+  }
+
+  >div{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+   
+    
+    p{
+      color:$first;
+      letter-spacing :2px;
+      font: 100 1.2rem $text2;
+      word-spacing: 5px;
+      padding-inline:4rem;
+    }
+}
+
+}
