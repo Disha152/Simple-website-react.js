@@ -77,8 +77,8 @@ export default function Home() {
          </article>
         </div>
       </div>
-      <Services/>
       <Contact/>
+      <Services/>
 
     </>
   );
