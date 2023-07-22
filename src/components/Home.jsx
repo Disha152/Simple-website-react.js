@@ -5,6 +5,7 @@ import '../styles/divider.scss';
 import imageSrc from '../assets/2.png'; 
 import{AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillInstagram} from "react-icons/ai";
 import Contact from './contact';
+import Services from './services';
 
 export default function Home() {
   return (
@@ -76,6 +77,7 @@ export default function Home() {
          </article>
         </div>
       </div>
+      <Services/>
       <Contact/>
 
     </>

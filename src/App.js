@@ -6,6 +6,7 @@ import "./styles/header.scss";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Contact from "./components/contact";
+import Services from "./components/services";
 
 
 
@@ -17,6 +18,8 @@ function App() {
       <Routes>
         <Route path ='/' element = {<Home/>}/>
         <Route path ='/contact' element = {<Contact/>}/>
+        <Route path ='/services' element = {<Services/>}/>
+
        
         
       </Routes>
