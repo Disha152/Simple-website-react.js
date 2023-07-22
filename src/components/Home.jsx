@@ -4,11 +4,12 @@ import '../styles/divider.scss';
 
 import imageSrc from '../assets/2.png'; 
 import{AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillInstagram} from "react-icons/ai";
+import Contact from './contact';
 
 export default function Home() {
   return (
     <>
-      <div className="home">
+      <div className="home" id = "home">
         <main>
           <h1>Welcome to TechStar</h1>
           <p>Here at TechStar we offer a wide range of services to help you with your technology needs.</p>
@@ -22,7 +23,7 @@ export default function Home() {
           </p></div>
       </div>
       <div className="divider"/>
-    <div className='home3'>
+    <div className='home3' id="about">
     <div>
           <h1>Who are we?</h1>
           <p>We are a group of tech enthusiasts who want to help you with your tech problems.
@@ -34,7 +35,7 @@ export default function Home() {
         </div>
       </div>
      
-      <div className='home4'>
+      <div className='home4' id="brands">
 
         <h1>Brands</h1>
         <div>
@@ -75,6 +76,7 @@ export default function Home() {
          </article>
         </div>
       </div>
+      <Contact/>
 
     </>
   );
