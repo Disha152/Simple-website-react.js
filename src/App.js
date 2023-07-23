@@ -5,7 +5,7 @@ import "./styles/App.scss";
 import "./styles/header.scss";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
-import Contact from "./components/contact";
+
 import "./styles/mediaquery.scss";
 
 import Services from "./components/services";
@@ -19,7 +19,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path ='/' element = {<Home/>}/>
-        <Route path ='/contact' element = {<Contact/>}/>
+        
         <Route path ='/services' element = {<Services/>}/>
 
        

@@ -1,7 +1,7 @@
 @import 'colors';
 
 .home {
-  width: 100%;
+  width: 100vh;
   height: 100vh;
   background: linear-gradient(to bottom, $second, $dark); 
 
@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+   
     width: 100%;
     height: 100%;
     padding: 4rem;
@@ -29,15 +30,14 @@
     p {
       font: 400 1rem $text1;
       color: white;
-      
-      align-items: flex-end;
       padding-right:2rem;
+      
     }
   }
 }
 
 .home2{
-  width: 100%;
+  width: 100vh;
   height: 100vh;
   background: linear-gradient(to top, $second, $dark); 
 
@@ -75,14 +75,15 @@
       font: 100 1.2rem $text2;
       word-spacing: 5px;
       padding-inline:4rem;
-      padding-top:4rem;
+      padding-bottom:8rem;
     }
 }
 
 }
 
 .home3{
-  width:100%;
+  
+  width:100vh;
   height:100vh;
   background: linear-gradient(to bottom, $second, $dark); 
   padding-inline:3rem;
@@ -126,7 +127,7 @@
 }
 
 .home4{
-  width:100%;
+  width:100vh;
   height:100vh;
   background: linear-gradient(to top, $second, $dark);
   display:flex;

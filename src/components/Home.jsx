@@ -4,7 +4,7 @@ import '../styles/divider.scss';
 
 import imageSrc from '../assets/2.png'; 
 import{AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillInstagram} from "react-icons/ai";
-import Contact from './contact';
+// import Contact from './contact';
 import Services from './services';
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
           We are your one and only soluiton to the tech problems you face everyday. We are leading tech companu whose aim is to increase the problem solving ability in children.
           </p></div>
       </div>
-      <div className="divider"/>
+    
     <div className='home3' id="about">
     <div>
           <h1>Who are we?</h1>
@@ -77,7 +77,7 @@ export default function Home() {
          </article>
         </div>
       </div>
-      <Contact/>
+      {/* <Contact/> */}
       <Services/>
 
     </>
