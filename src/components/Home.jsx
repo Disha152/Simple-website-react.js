@@ -12,8 +12,8 @@ export default function Home() {
     <>
       <div className="home" id = "home">
         <main>
-          <h1>Welcome to TechStar</h1>
-          <p>Here at TechStar we offer a wide range of services to help you with your technology needs.</p>
+          <h1>Welcome to Devcode</h1>
+          <p>Here at Devcode we offer a wide range of services to help you with your technology needs.</p>
         </main>
       </div>
       <div className="divider"/>

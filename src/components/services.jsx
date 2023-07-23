@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Services() {
   return (<>
-    <div className='services'>
+    <div className='services' id='services'>
      <Carousel infiniteLoop autoPlay showStatus={false} showArrows={false} interval={1000}
      showThumbs={false}>
       
