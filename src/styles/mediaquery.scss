@@ -1,17 +1,17 @@
 @media screen and (max-width: 394px) {
   .home3 {
-    height: 100vh;
-    width:100vh;
+    height: 100%;
+    width:100%;
     > div {
-      height: 100vh;
-      width:100vh;
+      height: 100%;
+      width:100%;
      
     }
   }
     .home{
      >main{
-        height: 100vh;
-        width:100vh;
+        height: 100%;
+        width:100%;
         padding-inline: 5rem;
         >p{
           text-align: center;
@@ -44,7 +44,7 @@
   }
 
   .home2 {
-    height: 120vh;
+    height: 120%;
     flex-direction: column;
     img {
       width: 100%;
@@ -55,7 +55,7 @@
   }
 
   .home3 {
-    height: 120vh;
+    height: 120%;
     padding-top:4rem;
  
     > div {
@@ -91,7 +91,7 @@
   }
 
   footer {
-    height: 50vh;
+    height: 50%;
     grid-template-columns: 1fr;
     padding: 5rem;
     > div {

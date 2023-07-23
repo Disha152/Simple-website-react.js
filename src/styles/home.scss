@@ -1,8 +1,8 @@
 @import 'colors';
 
 .home {
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(to bottom, $second, $dark); 
 
   position: relative;
@@ -37,8 +37,8 @@
 }
 
 .home2{
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(to top, $second, $dark); 
 
   position: relative;
@@ -83,8 +83,8 @@
 
 .home3{
   
-  width:100vh;
-  height:100vh;
+  width:100%;
+  height:100%;
   background: linear-gradient(to bottom, $second, $dark); 
   padding-inline:3rem;
   display:flex;
@@ -127,8 +127,8 @@
 }
 
 .home4{
-  width:100vh;
-  height:100vh;
+  width:100%;
+  height:100%;
   background: linear-gradient(to top, $second, $dark);
   display:flex;
   justify-content: flex-end;

@@ -1,7 +1,7 @@
 @import "colors";
 
 nav{
-  width:100vh;
+  width:100%;
   
   padding-inline: 2rem;
   display: flex;
@@ -15,12 +15,13 @@ nav{
 
   > h1{
     text-transform: uppercase;
+    margin-top:0.7rem;
    
     font: 700 1.3rem $text2;
   }
 
   > main{
-    width:100vh;
+    
     display: flex;
     justify-content: flex-end;
 
