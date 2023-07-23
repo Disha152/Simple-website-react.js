@@ -31,6 +31,7 @@
       font: 400 1rem $text1;
       color: white;
       padding-right:2rem;
+      text-align: center;
       
     }
   }
@@ -46,6 +47,8 @@
 
   justify-content: center;
   align-items: center;
+  padding-top:10rem;
+  
   
 
   >img{
@@ -75,7 +78,7 @@
       font: 100 1.2rem $text2;
       word-spacing: 5px;
       padding-inline:4rem;
-      padding-bottom:8rem;
+      padding-bottom:4rem;
     }
 }
 
@@ -90,6 +93,8 @@
   display:flex;
   align-items:center;
   justify-content: center;
+  padding-top:10rem;
+  padding-bottom:10rem;
   
 
 
@@ -132,7 +137,8 @@
   background: linear-gradient(to top, $second, $dark);
   display:flex;
   justify-content: flex-end;
-  padding-top:4rem;
+  padding-top:10rem;
+  padding-bottom:10rem;
   align-items: center;
 
   >h1{
